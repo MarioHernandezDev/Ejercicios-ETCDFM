@@ -1,0 +1,91 @@
+# -------------------------------------------------------
+# Archivos generados por los cuadernos Jupyter
+# -------------------------------------------------------
+
+# Datos tabulares
+*.csv
+*.tsv
+
+# Datos semiestructurados
+*.json
+*.xml
+
+# Hojas de cálculo
+*.xlsx
+*.xls
+*.ods
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+# Ficheros temporales SQLite (journal/WAL)
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Formatos binarios de datos ML
+*.parquet
+*.arrow
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# -------------------------------------------------------
+# Entornos y caché de Python
+# -------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+
+# -------------------------------------------------------
+# Jupyter
+# -------------------------------------------------------
+.ipynb_checkpoints/
+
+# -------------------------------------------------------
+# Sistema operativo
+# -------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------------------------------------
+# Excepciones: ficheros de ejemplo en carpetas datos/
+# (se incluyen explicitamente para que se suban a GitHub)
+# -------------------------------------------------------
+!UD2/**/datos/*.csv
+!UD2/**/datos/*.tsv
+!UD2/**/datos/*.json
+!UD2/**/datos/*.xml
+!UD2/**/datos/*.xsd
+!UD2/**/datos/*.xlsx
+!UD2/**/datos/*.parquet
+!UD2/**/datos/*.feather
+!UD2/**/datos/*.arrow
+!UD2/**/datos/*.h5
+!UD2/**/datos/*.hdf5
+
+# Excepciones UD3: bases de datos SQLite y ficheros de ejemplo
+!UD3/**/datos/*.db
+!UD3/**/datos/*.sqlite
+!UD3/**/datos/*.csv
+!UD3/**/datos/*.json
+!UD3/**/datos/*.parquet
+
+# -------------------------------------------------------
+# Trabajo personal del alumnado (no se sube a GitHub)
+# -------------------------------------------------------
+mis_cuadernos/*
+!mis_cuadernos/LEEME.md
+
+# Configuración compartida de VS Code (excepción a *.json)
+!.vscode/*.json
